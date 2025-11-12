@@ -4,7 +4,7 @@
 
 import * as React from 'react';
 import { Trash2, Loader2 } from 'lucide-react';
-import { deleteBookAction } from '@/app/(routes)/books/actions';
+import { deleteBookAction } from '@/app/(routes)/tasks/actions';
 import {
     Dialog, DialogContent, DialogDescription, DialogFooter,
     DialogHeader, DialogTitle, DialogTrigger

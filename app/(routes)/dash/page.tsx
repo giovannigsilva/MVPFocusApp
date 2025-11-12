@@ -1,4 +1,4 @@
-import { getOverallStats } from "@/data/book";  
+import { getOverallStats } from "@/data/task";  
 import { Button } from "@/components/ui/button" 
 import StartCard from '@/components/dashboard/StartCard';
 import { BookOpen, Book, CheckSquare, TrendingUp, ArrowRight } from 'lucide-react';

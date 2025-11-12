@@ -2,9 +2,9 @@
 
 export const dynamic = 'force-dynamic';
 
-import { getBooks } from '@/data/book';
-import BookCard from '@/components/books/BookCard';
-import BookFilters from '@/components/books/BookFilters';
+import { getBooks } from '@/data/task';
+import BookCard from '@/components/tasks/TaskCard';
+import BookFilters from '@/components/tasks/TaskFilters';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import { BookOpenText } from 'lucide-react';

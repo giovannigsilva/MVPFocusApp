@@ -1,8 +1,8 @@
 // app/(routes)/books/edit/[bookId]/page.tsx
 
-import BookForm from '@/components/forms/BookForm';
+import BookForm from '@/components/forms/TaskForm';
 import { getGenres } from '@/data/genres';
-import { getBookById } from '@/data/book';
+import { getBookById } from '@/data/task';
 import { notFound } from 'next/navigation';
 import { ChevronLeft } from 'lucide-react';
 import { Button } from '@/components/ui/button';

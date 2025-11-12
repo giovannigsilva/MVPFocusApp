@@ -4,8 +4,8 @@
 import { useState, useTransition, useEffect } from 'react';
 import { useFormStatus } from 'react-dom'; // Hook do React para estado de submission
 import { ReadingStatus } from '@prisma/client';
-import { createBookAction } from '@/app/(routes)/books/actions';
-import { updateBookAction } from '@/app/(routes)/books/actions';
+import { createBookAction } from '@/app/(routes)/tasks/actions';
+import { updateBookAction } from '@/app/(routes)/tasks/actions';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
